@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 class objj {
     private int salary; // to store the salary of employee
@@ -19,3 +20,26 @@ class objj {
         return salary;
     }
 }
+=======
+
+class objj {
+    private int salary; // to store the salary of employee
+    
+    public String employeeName; // to store the name of employee
+    
+    // Method to set the employee name as given input
+    public void setName(String s) {
+        employeeName = s;
+    }
+    
+    // Method to set the salary as given input
+    public void setSalary(int val) {
+        salary = val;
+    }
+    
+    // Method to get the salary of the employee
+    public int getSalary() {
+        return salary;
+    }
+}
+>>>>>>> 6ba8507bb649986bd7334f28ed51290999ae9040
